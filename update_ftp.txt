@@ -1,0 +1,17 @@
+;aiu;
+
+[Update BackupFTP]
+Name = BackupFTP
+Category = Update
+ProductVersion = 1.0.0
+URL = https://sistemasdd.com/teste.txt
+Size = 0
+ReleaseDate = 10/06/2021
+MD5 = d4688587a2104ab0ec8a7e0bd254579c
+ServerFileName = teste.txt
+Flags = NoCache|Advertises
+File = teste.txt
+Description = Update to fix problems
+Feature = Makes the program more stable.
+Enhancement = Starts connection verification when errors occur.
+BugFix = Starts connection verification when errors occur.
