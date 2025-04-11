@@ -1,26 +1,2 @@
 ;aiu;
 
-[UpdateBackupFTP]
-Name = BackupFTP 1.0.1.1.1
-Category = Atualização
-ProductVersion = 1.0.1.1
-URL1 = http://prefeitura.local/updates/UpdateBackupFTP1.0.1.1.msi
-URL = http://192.168.0.253/updates/UpdateBackupFTP1.0.1.1.msi
-Size = 5290496
-ReleaseDate = 03/04/2025
-SHA256 = 21689B3F787E42687EA709C09BBC46940073AD90469ACA1082946B057BE4B93F
-MD5 = 3193415c86ba3127b11db756f4301084
-ServerFileName = UpdataBackupFTP-1.0.1.1.msi
-Flags = Critical|NoCache|Advertises
-RegistryKey = HKLM\SOFTWARE\BackupFTP\Version
-Version = 1.0.1.1
-Description = Atualização
-Feature = Correção de erros e melhorias na interface.
-Enhancement = Maior estabilidade e funcionalidade
-BugFix = Botões apresentavam problemas.
-BugFix1 = Imprede que o computador entre em suspenção durante o backup.
-BugFix2 = Remove arquivos criptografados baixdos do backup que já foram descriptografados com sucesso.
-BugFix3 = Não exibe barra de progresso quando não há progresso na lista de arquivos em backup no servidor.
-AutoCloseApplication = [APPDIR]BackupFTP.exe|;;NoRestart
-AutoCloseApplication1 = [APPDIR]BackupFTP64.exe|;;NoRestart
-AutoCloseApplication2 = [APPDIR]BackupFTP 64.exe|;;NoRestart
